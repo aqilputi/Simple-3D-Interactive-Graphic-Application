@@ -1,3 +1,8 @@
-Trabalho 2 de CG
-Fernando Akio Tutume de Salles Pucci
-Vinicius Rodrigues Ribeiro
+para compilar o programa use:
+
+g++ -o fan fan.c glad.c -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+
+note que foram utilizadas os includes:
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+
